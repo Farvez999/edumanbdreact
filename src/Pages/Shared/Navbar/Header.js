@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <div className="fixed navbar bg-base-100">
+        <div className="fixed navbar bg-base-100" style={{backgroundColor:'purple',zIndex:999,color:'white'}}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
